@@ -758,9 +758,9 @@ try:
 except Exception:
     pass
 #if ver != verl:
-    print('\n\t\tAn Update is Available....')
-    print('\tStarting Update...')
-    update()
+    #print('\n\t\tAn Update is Available....')
+    #print('\tStarting Update...')
+    #update()
 print("Your Version is Up-To-Date")
 print('\n\n\t\t\tStarting TBomb...\n\n')
 try:
