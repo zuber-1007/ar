@@ -36,7 +36,7 @@ def format_phone(num):
 def get_phone_info():
     while True:
         target = ""
-        cc = "91"
+        cc = "1"
         cc = format_phone(cc)
         #target = input(("Enter the target number: +" + cc + " "))
         target = linecache.getline('phone.cfg',1)
@@ -97,7 +97,7 @@ def selectnode(mode="sms"):
         cc, target = "", ""
         if mode in ["sms", "call"]:
             cc, target = get_phone_info()
-            if cc != "91":
+            if cc != "1":
                 max_limit.update({"sms": 100})
 
         else:
